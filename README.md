@@ -1,1 +1,5 @@
-# codoACodo_php
+# Codo A Codo / PHP Fullstack 2021
+
+Includes excercises from the 2021 Fullstack bootcamp offered by Buenos Aires City.
+
+Subjects include HTML, CSS, JavaScript, SQL, git, PHP
