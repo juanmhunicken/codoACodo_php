@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    display: -ms-flexbox;
+    padding: 40px 0px;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-control {
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+button {
+    margin-top: 10px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    /*color: inherit;*/
+}
+
+a:hover {
+    text-decoration: none;
+}

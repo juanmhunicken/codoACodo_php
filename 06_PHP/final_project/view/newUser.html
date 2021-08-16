@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS stylesheet and Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="./css/login_style.css" rel="stylesheet">
+
+    <title>Crear nuevo usuario</title>
+</head>
+<body>
+    <body class="text-center bg-light">
+        <div class="container">
+            <form class="form-signin" action="../controller/newUser.php" method="POST">
+                <img class="mb-4" src="../images/logo.jpg" width="72" height="72">
+                <h1 class="h3 mb-3" >Nuevo registro</h1>
+                <input type="text" name="inputName" class="form-control" placeholder="Ingrese su nombre" required autofocus >
+                <input type="email" name="inputEmail" class="form-control" placeholder="Ingrese su email" required >
+                <input type="password" name="inputPassword" class="form-control" placeholder="Ingrese una clave" required>
+                <input type="password" name="repeatPassword" class="form-control" placeholder="Repita su clave" required>
+                <button type="submit" class="btn btn-lg btn-primary btn-block">Registrarse</button>
+            </form>    
+        
+        </div>
+    </body>
+</body>
+</html>
